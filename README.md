@@ -8,6 +8,7 @@ Documentation repo for the SHC ASTRA github. This repo contains some up-to-date 
 	 - Various installation, setup, or update scripts. Read their documentation/header comments before using.
  - /Templates
 	 - Templates to kickstart new programs/repos.
+	 - This includes the standard README file to be used for all new git repositories.
  - README
 	 - This is *this* file. This outlines the navigation and use of this repository.
 
