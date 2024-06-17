@@ -35,10 +35,11 @@ Create a branch when you're adding a new feature or fixing a bug. Name the branc
 Once work is completed on a branch a pull request should be made to merge the branch with the repo's main branch. There should be an overview of the pull request by the software team at a meeting before the merge pull request is completed. This should help catch bugs, hold people accountable, and ensure everyone is on the same page as to the state of repos.
 
 When making a pull request be sure to:
+ - Name the pull request: Merge name_of_the_branch (all you should have to do is add the word "Merge")
+ - Add a meaningful description
  - Assign reviewers (subteam lead(s) and other relevant people)
  - Assign yourself and other developers as Assignees
  - Assign the project as "SW Tasking"
- - Add a meaningful description
  - Create an issue under "Pending Review" for the merge. (Check, but this should be done automatically)
 
 ## Other
