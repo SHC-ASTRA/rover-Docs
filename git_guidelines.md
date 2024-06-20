@@ -42,6 +42,27 @@ When making a pull request be sure to:
  - Assign the project as "SW Tasking"
  - Create an issue under "Pending Review" for the merge. (Check, but this should be done automatically)
 
+## Submodules
+### Adding a submodule to your repo
+To add a submodule to your repo:
+ - cd to the location where you want the submodule in your repo
+ - run ``git submodule add SUBMODULE_GIT_SSH_URL``
+
+### Cloning
+When cloning repositories that have submodules you'll need to do recursive cloning to get the submodule downloaded. You must also ensure you update the submodule and test your code again before pushing if changes were made to the submodule. It's good to update the submodules with ``git subup`` from time to time even if the repo you're working in has no changes. 
+
+Example:
+```
+//To clone recursively simply add the --recurse argument
+$ git clone --recurse SSH_REPO_URL_HERE
+```
+
+### Updating the submodules
+When updating submodules you just run ``git subup`` to update all submodules. **(See git_setup.md for details on how to get the ``git subup`` command)**
+Alternatively you can run the update command yourself:
+``git submodule deinit -f --all && git submodule init && git submodule update --remote``
+
+
 ## Other
 ### Issue Tracking
  Issue tracking is a new introduction for the URC 2025 development cycle and will be used in the future to track bugs, changes, tasks, & planning for the software subteam. Issues should always be properly labeled with an assignee, target date, and priority level. 
