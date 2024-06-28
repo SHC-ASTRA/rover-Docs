@@ -37,10 +37,10 @@ Once work is completed on a branch a pull request should be made to merge the br
 When making a pull request be sure to:
  - Name the pull request: Merge name_of_the_branch (all you should have to do is add the word "Merge")
  - Add a meaningful description
- - Assign reviewers (subteam lead(s) and other relevant people)
+ - Assign reviewers (subteam lead and potentially other relevant people)
  - Assign yourself and other developers as Assignees
  - Assign the project as "SW Tasking"
- - Create an issue under "Pending Review" for the merge. (Check, but this should be done automatically)
+ - Create an issue under "Pending Review" for the merge! You can type #, and select the repo. The pull request should be one of the prompted options. (The issue could've been made automatically when PR was opened, but check)
 
 ## Submodules
 ### Adding a submodule to your repo
