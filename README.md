@@ -4,6 +4,8 @@ Documentation repo for the SHC ASTRA github. This repo contains some up-to-date 
 # Root Table of Contents
  - /Documentation
 	 - Contains various documentation on the current state of the rover software/system architecture. This also contains helpful instructional how-to documentation.
+  - /Guides
+	  - Step by step instructions for how to perform certain tasks, especially those that are poorly/obscurely documented online
   - /Scripts
 	 - Various installation, setup, or update scripts. Read their documentation/header comments before using.
  - /Templates
