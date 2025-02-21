@@ -3,8 +3,9 @@ The following is a list of details for all the active hosts for the ASTRA system
 
 |Machine|Username|Hostname|Static IP (ethernet) | Password |
 |--|--|--|--|--|
-| Core NUC | clucky | astra-nuc | 192.168.1.69 |spaceiscool639 |
-| Arm Pi | astra | astra-arm |192.168.1.70 | " " |
+| NUC 1 | clucky | astra-nuc | 192.168.1.69 |spaceiscool639 |
+| NUC 2 | clucky | astra-nuc | 192.168.1.70 | " " |
+| Arm Pi | astra | astra-arm |192.168.1.81 | " " |
 | Citadel Pi | astra | astra-citadel |192.168.1.80 | " " |
 | 5G AC Bullet | astra | N/A |192.168.1.21 | " " |
 | 5G AC Bullet | astra | N/A | 192.168.1.22 | " " |
