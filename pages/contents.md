@@ -1,2 +1,1 @@
-- Documentation repo for the SHC ASTRA github. This repo contains some up-to-date documentation, templates (for ROS, Git, and others), and miscellaneous useful scripts.
--
+- Refer to [[Main]]

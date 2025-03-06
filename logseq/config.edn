@@ -130,7 +130,7 @@
  ;; 1. Set "Changelog" as the home page and display "Contents" in the right sidebar:
  ;; :default-home {:page "Changelog", :sidebar "Contents"}
  ;; 2. Set "Jun 3rd, 2021" as the home page without the right sidebar:
- ;; :default-home {:page "Jun 3rd, 2021"}
+ :default-home {:page "Main"}
  ;; 3. Set "home" as the home page and display multiple pages in the right sidebar:
  ;; :default-home {:page "home", :sidebar ["Page A" "Page B"]}
 
@@ -299,7 +299,7 @@
  ;;  :charge-range    600}   ; Default value: 600
 
  ;; Favorites to list on the left sidebar
- :favorites ["Contents"]
+ :favorites ["main"]
 
  ;; Set flashcards interval.
  ;; Expected value:
@@ -318,7 +318,7 @@
 
  ;; Create a page for all properties.
  ;; Default value: true
- :property-pages/enabled? true
+ :property-pages/enabled? false
 
  ;; Properties to exclude from having property pages
  ;; Example usage:
@@ -420,4 +420,7 @@
  ;;   - :triple-lowbar (default)
  ;;      ;use triple underscore `___` for slash `/` in page title
  ;;      ;use Percent-encoding for other invalid characters
- :file/name-format :triple-lowbar}
+ :file/name-format :triple-lowbar
+ :graph/forcesettings {:link-dist 50
+ :charge-strength -200
+ :charge-range 1400}}
