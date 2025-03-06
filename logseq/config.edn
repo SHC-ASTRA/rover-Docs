@@ -358,6 +358,8 @@
  ;; {:lineWrapping  false  ; Default value: false
  ;;  :lineNumbers   true   ; Default value: true
  ;;  :readOnly      false} ; Default value: false
+ :editor/extra-codemirror-options
+ {:readOnly true}
 
  ;; Enable logical outdenting
  ;; Default value: false
