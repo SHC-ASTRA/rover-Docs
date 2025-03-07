@@ -2,7 +2,6 @@
   query-properties:: [:page :description :file :updated-at]
 - template:: Script
   template-including-parent:: false
-  collapsed:: true
 	- tags:: [[Script]]
 	  description:: `no description`
 	  file:: `link to file`
