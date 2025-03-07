@@ -10,3 +10,4 @@ file:: ![launch_cameras.sh](../assets/scripts/launch_cameras.sh)
 	  ./launch_cameras.sh [num] ...
 	  ```
 	- `launch_cameras.sh` can be invoked with one or more numbers. It will attempt to launch a Gstreamer window streaming from `192.168.1.$num` for each of the numbers you provide.
+-
