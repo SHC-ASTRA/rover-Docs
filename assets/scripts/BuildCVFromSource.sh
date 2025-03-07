@@ -14,4 +14,3 @@ cmake --build .
 sudo make install
 #Remove zipped archives to save space
 rm opencv.zip && rm opencv_contrib.zip
-
