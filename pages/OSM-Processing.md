@@ -4,7 +4,7 @@ description:: Exporting `mbtiles` from [OpenStreetMap Exports](https://download.
 - The following describes how to take data downloaded from [OpenStreetMap Exports](https://download.geofabrik.de/) provided by <ins>geofabrik.de</ins>
 
 - ## Requirements
-    - Docker Engine ([installation](https://docs.docker.com/engine/install/))is required in order to copmlete this process
+    - Docker Engine ([installation](https://docs.docker.com/engine/install/)) is required in order to complete this process
 
 - ## Instructions
     - Download a `.pbf` record, such as [utah-latest.osm.pbf](https://download.geofabrik.de/north-america/us/utah-latest.osm.pbf)
