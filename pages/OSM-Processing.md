@@ -9,7 +9,7 @@ description:: Exporting `mbtiles` from [OpenStreetMap Exports](https://download.
 - ## Instructions
     - Download a `.pbf` record, such as [utah-latest.osm.pbf](https://download.geofabrik.de/north-america/us/utah-latest.osm.pbf)
     - `docker pull` the `tilemaker:master` image from `ghcr.io/systemed/tilemaker:master`
-    - Locate and open a terminal in the directory in which you downloaded the `.pbf` directory
+    - Locate and open a terminal in the directory in which you downloaded the `.pbf`
     - Run the following `docker` command: `docker run -it --rm -v $(pwd):/data ghcr.io/systemed/tilemaker:master --input=/data/DOWNLOADED_FILE.osm.pbf --output=/data/DOWNLOADED_FILE.mbtiles`
 
 - ## Further Configuration
