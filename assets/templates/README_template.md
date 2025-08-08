@@ -15,15 +15,9 @@
   9. Author(s) 
   10. Maintainer(s)
 - # Software Requirements 
-  ~~Before downloading anything, it is a good idea to make sure your system is up to date and that all software you are using is as well. If you are on Ubuntu/Debian, the following commands will do so.~~
-
-  ~~All commands in this document will be for Ubuntu.~~
-  ```sudo apt-get install && sudo apt-get upgrade```
-  
-  Since July/August of 2025, ASTRA uses NixOS. Because of this, the previous instructions have become obsolete. Consider removing them and the last 2 sentences of this preamble when using template.
+  Since July/August of 2025, ASTRA uses NixOS.
     
-  A functioning NixOS installation is assumed.
-  
+  A functioning NixOS installation is assumed.  
   
 - ## ROS2 Humble
   We use ROS2(Robot Operating System) Humble, and plan on using that until support for it expires. 
@@ -34,7 +28,7 @@
   ``` 
 - ## Insert Headers/Descriptions/Brief tutorial for other required software items
 - # Hardware Requirements 
-  - Functioning Computer.
+  - A Functioning Computer.
 - # Recommended Programs
 - ## VSCode
   VSCode is a wonderful program. I used it to make this project and recommend anyone else working on it use it as well. 
