@@ -12,6 +12,7 @@
 - # [Templates]([[Template]])
   query-properties:: [:page :description :updated-at]
   {{query (page-tags [[template]])}}
+- # [Documentation]([[Documentation]])
+  {{query (page-tags [[Documentation]]  )}}
 -
--
-title:: Main
+- title:: Main
